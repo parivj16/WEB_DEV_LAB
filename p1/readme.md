@@ -1,37 +1,26 @@
-# P1: Project Folder and Terminal Navigation
+P1: Project Folder and Terminal Navigation Aim: To create a project folder and learn basic terminal navigation commands.
 
-## Aim
-To learn basic terminal commands and understand project folder navigation.
+Commands:
 
-## Commands Used
+Display the current working directory: pwd
 
-1. `pwd` – Displays the current working directory.
-2. `ls` – Lists files and directories.
-3. `mkdir` – Creates a new directory.
-4. `cd` – Changes the current directory.
-5. `touch` – Creates a new file.
-6. `cd ..` – Moves to the parent directory.
-7. `ls -la` – Displays all files, including hidden files.
+List files and folders: ls
 
-## Procedure
+Create a project folder: mkdir MyPortfolio
 
-1. Open the terminal.
-2. Check the current working directory using `pwd`.
-3. List the available files using `ls`.
-4. Create a directory named `my-project`.
-5. Navigate into the directory using `cd`.
-6. Create an HTML file named `index.html`.
-7. Verify the file using `ls`.
-8. Navigate back to the parent directory.
+Navigate into the folder: cd MyPortfolio
 
-## Output
+Create files: touch index.html style.css
 
-A project directory named `my-project` was successfully created, and an `index.html` file was added inside it.
+Display the contents: ls
 
-## Screenshots
+Navigate to the parent directory: cd ..
 
-Refer to the screenshots folder for terminal commands and their outputs.
+Remove an empty folder: rmdir MyPortfolio
 
-## Result
+Result: Successfully created a project folder, navigated through directories, and practiced basic terminal commands.
 
-Successfully learned basic terminal commands and project folder navigation.
+Terminal proof:
+<img width="1470" height="956" alt="Screenshot 2026-11-16 at 12 02 20 AM" src="https://github.com/user-attachments/assets/a07ebaa9-d9d2-4434-ad0b-ec4a810ff7c0" />
+
+<img width="1470" height="956" alt="Screenshot 2026-11-16 at 12 13 36 AM" src="https://github.com/user-attachments/assets/d6d00112-68af-4691-b215-b2263c58a4c2" />
