@@ -32,7 +32,7 @@ Each practical has its own folder containing the required source files.
 
 ## Technologies Used
 
-- HTML5
+- HTML
 - CSS3
 - Git
 - GitHub
