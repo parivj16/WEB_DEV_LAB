@@ -7,5 +7,3 @@
 - Git
 - Github
 
-## Author -
-Asbah Kamaal Khan
