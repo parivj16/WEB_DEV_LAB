@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e6d6f5;
+    font-family: Arial, sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px;
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    font-family: Georgia;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.destinations {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.card-heading {
+    text-transform: uppercase;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 280px;
+    background-color: #f8f0ff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.name {
+    font-weight: bold;
+    margin: 10px;
+}
+
+.description {
+    line-height: 1.4;
+}
+
+.know-more {
+    margin-top: 12px;
+    padding: 10px 15px;
+    background-color: #8e6bbd;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.content {
+    width: 100%;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+}
+.content-grid .content {
+    background-color: #f8f0ff;
+    padding: 12px;
+    border-radius: 10px;
+}
+.content-grid .content img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+.content-caption {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}

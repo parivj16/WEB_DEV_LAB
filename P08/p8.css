@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: rgb(91, 59, 75);
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+h1 {
+    margin: 30px;
+}
+
+
+.card {
+    position: relative;
+    width: 400px;
+    margin: 30px;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card p {
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    background-color: black;
+    color: white;
+    padding: 8px;
+    margin: 0;
+}
+
+
+h2 {
+    margin: 30px;
+}
+
+body > p {
+    margin: 30px;
+    font-size: 18px;
+}
+
+.space {
+    height: 1000px;
+}
